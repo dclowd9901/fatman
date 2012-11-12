@@ -30,7 +30,6 @@ EntityPlayer = ig.Entity.extend({
 	accelAir: 200,
 	jump: 200,
 	health: 10,
-	flip: false,
 	
 	init: function( x, y, settings ) {
 		this.parent( x, y, settings );
